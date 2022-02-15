@@ -1,5 +1,5 @@
 # worker-scheduler
-  ![npm](https://img.shields.io/npm/v/worker-scheduler.svg)](https://www.npmjs.com/package/worker-scheduler)
+  [![npm](https://img.shields.io/npm/v/worker-scheduler.svg)](https://www.npmjs.com/package/worker-scheduler)
   ![Build Status](https://img.shields.io/github/checks-status/instawatcher/worker-scheduler/master)
   ![Test Coverage](https://img.shields.io/codecov/c/github/instawatcher/worker-scheduler)
 
