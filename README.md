@@ -1,7 +1,7 @@
 # worker-scheduler
   [![npm](https://img.shields.io/npm/v/worker-scheduler.svg)](https://www.npmjs.com/package/worker-scheduler)
   ![Build Status](https://img.shields.io/github/checks-status/instawatcher/worker-scheduler/master)
-  ![Test Coverage](https://img.shields.io/codecov/c/github/instawatcher/worker-scheduler)
+  [![Test Coverage](https://img.shields.io/codecov/c/github/instawatcher/worker-scheduler)](https://app.codecov.io/gh/instawatcher/worker-scheduler)
 
 Ever wanted to schedule jobs like "this thing should execute every x hours/minutes/seconds"? Then this library is for you!
 You can even trigger workers manually! Works with native promises, as I don't think you want to do synchronous work in your *background* workers.
