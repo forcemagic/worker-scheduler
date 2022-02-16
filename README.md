@@ -1,7 +1,8 @@
 # worker-scheduler
   [![npm](https://img.shields.io/npm/v/worker-scheduler.svg)](https://www.npmjs.com/package/worker-scheduler)
-  ![Build Status](https://img.shields.io/github/checks-status/instawatcher/worker-scheduler/master)
+  [![Build Status](https://img.shields.io/github/workflow/status/instawatcher/worker-scheduler/Node.js%20CI)](https://github.com/instawatcher/worker-scheduler/actions)
   [![Test Coverage](https://img.shields.io/codecov/c/github/instawatcher/worker-scheduler)](https://app.codecov.io/gh/instawatcher/worker-scheduler)
+  [![License](https://img.shields.io/npm/l/worker-scheduler)](https://github.com/instawatcher/worker-scheduler/blob/master/LICENSE.md)
 
 Ever wanted to schedule jobs like "this thing should execute every x hours/minutes/seconds"? Then this library is for you!
 You can even trigger workers manually! Works with native promises, as I don't think you want to do synchronous work in your *background* workers.
@@ -39,9 +40,3 @@ module.exports = async (log) => {
 
 This simple example would fetch your public IP address, return it, and `console.log` it out *every day*!
 (Every worker is forked out of the scheduler, so don't worry about hanging your master process!)
-
-# Just a quick note...
-
-Have you noticed? This library is sitting under the `instawatcher` organization. That's because it's the core
-of Instawatcher! I had to write a completely new "background task scheduler", because none of the available
-ones fit the needs of IW.
