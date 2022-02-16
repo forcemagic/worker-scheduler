@@ -1,6 +1,6 @@
 {
   "name": "worker-scheduler",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Schedules and manages background workers",
   "main": "./lib/worker-scheduler.js",
   "types": "./lib/worker-scheduler.d.ts",
@@ -27,6 +27,6 @@
     "nyc": "^15.1.0"
   },
   "dependencies": {
-    "npmlog": "^4.1.2"
+    "npmlog": "^6.0.1"
   }
 }
